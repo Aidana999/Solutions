@@ -1,10 +1,13 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-        String str= "Epa20mJ2a2va";
-        str = str.replaceAll("[^0-9]","");
-        System.out.println(str);
+        Scanner scan = new Scanner(System.in);
+        String E1 = scan.nextLine();
+        E1 = E1.replaceAll("[^0-9]","");
+        System.out.println(E1);
     }
 }
