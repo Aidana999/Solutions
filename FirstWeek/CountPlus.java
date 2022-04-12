@@ -9,12 +9,12 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         String text = scan.nextLine();
         String lilWord = scan.nextLine();
+        int count = 0;
         Pattern patt = Pattern.compile(lilWord);
         Matcher mat = patt.matcher(text);
-        int counter = 0;
         while (mat.find()) {
-            counter++;
+            count++;
         }
-        System.out.println(counter);
+        System.out.println(count);
     }
 }
