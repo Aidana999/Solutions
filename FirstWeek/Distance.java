@@ -10,7 +10,7 @@ public class Main {
         String two = scan.next();
         int first = text.indexOf(one);
         int second = text.indexOf(two);
-        int distance ;
+        int distance;
         distance = (second - first - one.length());
             System.out.println(distance);
     }
