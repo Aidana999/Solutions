@@ -1,1 +1,3 @@
-
+Count String: 130
+Duplicate string:Lorem ipsudltacngyvbqjk.M564AfDSNhEx
+Replace string:564564656456
